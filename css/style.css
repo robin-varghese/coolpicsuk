@@ -317,19 +317,23 @@ p {
 }
 
 .nav-link-cta {
-    background-color: var(--color-charcoal);
+    background-color: var(--color-accent);
     color: var(--color-white);
     padding: var(--spacing-xs) var(--spacing-md);
     border-radius: var(--radius-sm);
 }
 
 .nav-link-cta:hover {
-    background-color: var(--color-dark-gray);
+    background-color: var(--color-accent-hover);
     color: var(--color-white);
 }
 
 .nav-link-cta::after {
     display: none;
+}
+
+.nav-link-cta.active {
+    color: var(--color-white);
 }
 
 /* Hamburger Menu */
@@ -377,14 +381,14 @@ p {
 }
 
 .btn-primary {
-    background-color: var(--color-charcoal);
+    background-color: var(--color-accent);
     color: var(--color-white);
-    border-color: var(--color-charcoal);
+    border-color: var(--color-accent);
 }
 
 .btn-primary:hover {
-    background-color: var(--color-dark-gray);
-    border-color: var(--color-dark-gray);
+    background-color: var(--color-accent-hover);
+    border-color: var(--color-accent-hover);
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
 }
@@ -404,12 +408,12 @@ p {
 
 .btn-outline {
     background-color: transparent;
-    color: var(--color-charcoal);
-    border-color: var(--color-charcoal);
+    color: var(--color-accent);
+    border-color: var(--color-accent);
 }
 
 .btn-outline:hover {
-    background-color: var(--color-charcoal);
+    background-color: var(--color-accent);
     color: var(--color-white);
 }
 
@@ -714,7 +718,7 @@ p {
 
 .filter-btn:hover,
 .filter-btn.active {
-    background-color: var(--color-charcoal);
+    background-color: var(--color-accent);
     color: var(--color-white);
 }
 
@@ -866,7 +870,7 @@ p {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: var(--color-charcoal);
+    background-color: var(--color-accent);
     color: var(--color-white);
     width: 50px;
     height: 50px;
@@ -880,7 +884,7 @@ p {
 }
 
 .carousel-btn:hover {
-    background-color: var(--color-dark-gray);
+    background-color: var(--color-accent-hover);
     transform: translateY(-50%) scale(1.1);
 }
 
@@ -910,7 +914,7 @@ p {
 
 .indicator.active,
 .indicator:hover {
-    background-color: var(--color-charcoal);
+    background-color: var(--color-accent);
 }
 
 /* ========================================
