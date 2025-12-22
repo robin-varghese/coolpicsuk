@@ -1,6 +1,6 @@
-# CoolPics UK Photography Website
+# CoolPicsUK Photography Website
 
-A professional, responsive single-page website for CoolPics UK - a premium photography and videography service specializing in portrait, event, and landmark photography across the UK.
+A professional, responsive single-page website for CoolPicsUK - a premium photography and videography service specializing in portrait, event, and landmark photography across the UK.
 
 ## Features
 
@@ -103,11 +103,11 @@ Update contact details in:
 
 ## License
 
-© 2025 CoolPics UK. All rights reserved.
+© 2025 CoolPicsUK. All rights reserved.
 
 ## Credits
 
-- Design & Development: Custom built for CoolPics UK
+- Design & Development: Custom built for CoolPicsUK
 - Fonts: Google Fonts (Playfair Display, Source Sans Pro)
 - Icons: Unicode emoji (replace with icon font/SVG as needed)
 

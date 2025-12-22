@@ -1,5 +1,5 @@
 /**
- * CoolPics UK - Main JavaScript
+ * CoolPicsUK - Main JavaScript
  * Handles navigation, smooth scrolling, carousel, form validation, and interactive features
  */
 
@@ -502,7 +502,7 @@ document.addEventListener('DOMContentLoaded', () => {
     new ScrollAnimations();
     new LazyLoader();
 
-    console.log('CoolPics UK website loaded successfully!');
+    console.log('CoolPicsUK website loaded successfully!');
 });
 
 // ========================================
