@@ -1441,6 +1441,36 @@ p {
         width: 100%;
     }
 
+    /* Who We Are */
+    .who-container {
+        flex-direction: column-reverse;
+        gap: var(--spacing-xl);
+    }
+
+    .who-content,
+    .who-image {
+        max-width: 100%;
+    }
+
+    .who-content {
+        text-align: center;
+    }
+
+    /* Custom Projects */
+    .custom-container {
+        flex-direction: column-reverse;
+        gap: var(--spacing-xl);
+    }
+
+    .custom-content,
+    .custom-image {
+        max-width: 100%;
+    }
+
+    .custom-content {
+        text-align: center;
+    }
+
     /* Services */
     .services-grid {
         grid-template-columns: 1fr;
